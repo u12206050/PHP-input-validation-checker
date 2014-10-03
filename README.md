@@ -77,12 +77,10 @@ Add all your web inputs via the following commands into the file ICdata.php:
 </pre>	
 ==========================================================================================================
 ::USAGE
-To access and load web inputs call the, first require the  ICdata.php  file then call the load_IC(args)  function where args is an array
-of field names you want to load eg  ["user","pass"] or  "*"  will load all values specified in IC.
+To access and load web inputs call the, first require the  ICdata.php  file then call the load_IC(args)  function where args is an array of field names you want to load eg  ["user","pass"] or  "*"  will load all values specified in IC.
 If the return of  load_IC(args)  is null, then all values have been loaded and can be accessed via  getIC(field name)->data 
 eg.  getIC("user")->data 
-If however load_IC does not return null, then it contains an array of errors.	These errors are stored according to key-value
-with key being the field name and the value of it the errors message as found in the  getIC(field name)->error  field.
+If however load_IC does not return null, then it contains an array of errors.	These errors are stored according to key-value with key being the field name and the value of it the errors message as found in the  getIC(field name)->error  field.
 ==========================================================================================================
 ::EXAMPLE USAGE:
 <pre>
