@@ -24,8 +24,9 @@
 			if ($errors)
 			{				
 				echo "<h3 style='color: red;'>Error: <hr>";
-				foreach($errors as $error) {
-				    echo $error.'<br>';
+				foreach ($errors as $key => $error)
+				{
+					echo "{$key}: {$error} <br>";
 				}
 				echo "</h3>";
 			}

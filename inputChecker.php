@@ -8,10 +8,7 @@
 		public $data = null;
 		public $error = null;
 		
-		public function special_check()
-		{
-		
-		}
+		public function special_check(){}
 		
 		public function load($data)
 		{
