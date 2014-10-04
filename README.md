@@ -1,12 +1,14 @@
 
-Library PHP Input Validation Checker
+Library: PHP Input Validation Checker
+==========================================================================================================
 Developer: Gerard A Lamusse
 Email: gerardlamo@live.com
 Date: 02 October 2014 v.01
 ==========================================================================================================
 This library can be used to check all your input from client side, if they are valid.
-WARNING: This library does not sanitize any input due to the new PDO techniques available.
 ==========================================================================================================
+WARNING: This library does not sanitize any input due to the new PDO techniques available.
+
 ::SETUP
 Add all your web inputs via the following commands into the file ICdata.php:
 	
